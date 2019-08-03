@@ -1,0 +1,9 @@
+name: 'Sphinx Make HTML'
+description: 'Builds html documentation with Sphinx'
+author: 'Sean Zheng'
+branding:
+  icon: 'book'
+  color: 'purple'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
